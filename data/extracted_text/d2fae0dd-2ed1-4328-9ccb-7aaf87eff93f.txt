@@ -1,0 +1,529 @@
+1
+Introduction to Information 
+Retrieval
+
+2
+Outline
+◼ Basic concepts
+◼ Past present future
+◼ Modeling
+◼ Retrieval models
+
+3
+Information Retrieval 
+◼ Goal = find documents relevant to an information 
+need from a large document set
+Document 
+collection
+Info. 
+need
+Query
+Answer list
+IR 
+systemRetrieval
+
+4
+Example
+Google
+Web
+
+5
+IR problem
+◼ First applications: in libraries (1950s)
+ ISBN: 0-201-12227-8 
+ Author: Salton, Gerard 
+ Title: Automatic text processing: the transformation, 
+      analysis, and retrieval of information by computer 
+ Editor: Addison-Wesley 
+ Date: 1989
+ Content: <Text> 
+◼ external attributes and internal attribute (content)
+◼ Search by external attributes = Search in DB
+◼ IR: search by content
+
+Information versus Data 
+Retrieval
+◼ The user of an IR system is concerned more with retrieving 
+information about a subject than with retrieving data that 
+satisfies a given query.
+◼ A data retrieval system, such as a relational database, deals 
+with data that has a well defined structure and semantics, 
+while an IR system deals with natural language text which is 
+not well structured.
+◼ In a data retrieval system, on the contrary, a single 
+erroneous object among a thousand retrieved objects 
+means total failure.
+6
+
+7
+
+
+8
+
+
+9
+
+10
+
+11
+
+
+12
+
+
+13
+
+
+Basic concepts
+14
+
+
+15
+
+16
+
+17
+
+
+18
+
+
+19
+
+20
+
+21
+
+
+22
+
+
+23
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+29
+
+
+30
+
+
+31
+
+32
+
+33
+
+34
+
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+
+41
+
+42
+
+
+43
+
+44
+
+
+45
+
+
+46
+
+47
+
+
+48
+
+49
+
+50
+
+
+51
+
+52
+
+
+53
+
+
+Vector model
+54
+
+55
+
+
+56
+
+
+57
+
+
+Inter cluster similarity
+58
+
+59
+
+60
+
+
+61
+
+
+62
+
+63
+
+
+64
+
+
+65
+
+
+66
+
+67
+
+68
+
+69
+
+
+70
+
+71
+
+
+72
+
+
+73
+
+
+74
+
+
+75
+
+
+76
+
+77
+
+
+78
+
+
+79
+
+
+80
+
+
+81
+
+
+82
+
+
+83
+
+
+84
+
+
+85
+
+
+86
+
+
+87
+
+
+88
+
+
+89
+
+
+90
+
+
+91
+
+
+92
+
+
+93
+
+
+94
+
+95
+
+
+96
+
+97
+
+
+98
+
+
+99
+
+
+100
+
+
+101
+
+
+102
+
+
+103
+
+
+104
+
+
+105
+
+106
+
+
+107
+
+
+108
+
+
+109
+
+
+110
+
+
+111
+
+
+112
+
+
+113
+
+
+114
+
+
+115
+
+
+116
+
+
+117
+
+
+118
+
+
+119
+
+120
+
+
+121
+
+122
+
+
+123
+
+
+124
+
+
+125
+
+
+126
+
+
+127
+
+
+128
+
+
+129
+
+
+130
+
+
+131
+
+
+132
+
+
+133
+
+
+134
+
+
+135
+
+
+136
+
+
+Latent Semantic Analysis
+◼ When we use index terms (keywords) for searching:
+◼ Problem 1: Many unrelated documents may appear (because they share 
+the same keyword, but not the same meaning).
+◼ Problem 2: Some relevant documents may not appear (because they use 
+different words to express the same concept).
+◼ Instead of matching documents strictly by keywords, LSI tries to match 
+them by concepts.
+◼ Words that appear in similar contexts are assumed to have similar 
+meanings.
+◼ A document can be considered relevant even if it doesn’t contain the 
+exact keyword from the query, as long as it shares the same concept.
+137
+
+◼ How LSI Works
+◼ Construct a term-document matrix (M):
+◼ Rows → terms (keywords)
+◼ Columns → documents
+◼ Each entry 𝑀𝑖,𝑗Mi,j ​ → weight showing how important term i is in 
+document j.
+◼ Weight often calculated using TF-IDF (term frequency–inverse document 
+frequency).
+◼ Apply Dimensionality Reduction (using Singular Value Decomposition, 
+SVD).
+◼ This reduces the large term-document matrix into a smaller concept space.
+◼ Each document and query is mapped into this lower-dimensional 
+space.Retrieval happens in this concept space instead of raw keyword space.
+138
+
+◼ Advantages
+◼ Captures synonymy (different words, same 
+meaning → car/automobile).
+◼ Handles polysemy better (same word, multiple 
+meanings → “bank” as riverbank or financial 
+bank).
+◼ Improves retrieval accuracy compared to plain 
+keyword matching.
+139
+
+140
+
+
+141
+
+
+142
+
+
+143
+
+
+144
+
+
+145
+
+
+146
+
+
+147
+
+
+148
+
+
+149
+
+
+150
+
+
+151
+
+
+152
+
+
+153
+
+
+154
+
+
+155
+
+156
+
+
+157
+
+158
+
+159
+
+
+160
+
+
+161
+
+
+162
+
+
+163
+
+
+164
+
+
+165
+
+
+166

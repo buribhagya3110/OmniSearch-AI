@@ -1,0 +1,156 @@
+OMNISEARCH AI: SYSTEM ARCHITECTURE FLOWCHART
+
+Search Everything +
+
+Find Anything +
+
+Allin One Place
+
+User Document Uploads
+Upload files in different formats
+
+PDF
+
+DOCK —PPTX ~— Image.
+
+Source Code
+
+DATA INGESTION & INDEXING
+From multiple file formats to searchable indexes
+
+File Type Detection & Routing
+Detect file type and route to
+appropriate parser
+
+Audio Video
+
+!
+
+Content Extraction Modules
+Extract text from different file types
+
+Docx
+Parser
+
+PDF
+Parser
+
+Image OCR
+(Tesseract)
+
+</>
+
+Code Parser
+(AST/Regex)
+
+Speech-to-Text
+(Whisper)
+
+Text Extraction & Cleaning
+
+Remove noise * Tokenization + Lowercase + Stopword removal + Stemming/Lemmatization
+
+Metadata Extraction
+
+QQ Filename + Fie ype +
+Pails Keywords
+
+v
+
+Upload date
+
+@® indexing Engine
+
+3 Create searchable indexes
+
+( <p Whoosh Po}, FAIsS
+JF _ (Keyword index) S
+
+‘+ Inverted index
++ BM2S / TF-IDF
+
+‘o° (Semantic Vector Index)
+
++ Vector embeddings
++ Cosine similarity
+
+SQLite Database
+Stores metadata and index references
+
+(
+
++ File metadata
+‘+ Index reference
+
+QUERY & SEARCH PIPELINE
+
+From user query to relevant results
+
+Cy)
+
+User Search Query
+
+Enter your query
+
+eg. “project presentation”
+
+Search & Ranking Engine
+Find and rank relevant files
+
+BM25 Ranking
+(Keyword)
+
+Cosine Sit
+
+¥
+
+(Semantic)
+
+& Query Processing
+
++ Tokenization
++ Spell Correction (optional)
++ Query Expansion (optional)
+
+———
+
+rity Exact Match
+(Keyword)
+
+Retrieval Module
+Generate final results
+‘+ Matching files
+‘+ Snippet generation
+‘+ Highlight keywords
+‘+ Similar documents
+
+Web UI Dashboard
+Display results to user
+
++ Search results
++ Preview
++ Open file
+
+\
+
+v
+
+User Views Results —> Opens File
+
+©} Technologies / Tools Used
+
+e Python \ Aq Streamlit
+
+€ Flask
+
+<)>) Tesseract OCR
+
+© Whoosh
+
+allt Whisper
+
+hop
+e\ & FAISS
+os
+
+S SQLite

@@ -1,0 +1,619 @@
+1  
+Syllabus: Introduction to Operational Amplifiers, Op-Amp Input Modes and Parameters, Op-Amp with 
+Negative Feedbacks, Comparator (Zero -Level Detection and Nonzero -Level Detection), Summing 
+Amplifier with Unity Gain, The Op -Amp Integrator, The Op -Amp Differe ntiator. (Text 3: 12.1 -12.4, 
+13.1 – 13.3) 
+Module - 4 : Operational Amplifiers 
+Introduction to Operational Amplifiers 
+ Early operational  amplifiers (op -amps) were used primarily to perform mathematical 
+operations such as addition, subtraction, integration, and differentiation. 
+ These early devices were constructed with vacuum tubes and worked with high voltages. 
+ Today’s op-amps are linear integrated circuits (ICs) that use relatively low dc supply voltages 
+and are reliable and inexpensive. 
+ 
+Symbol: 
+ The standard operational amplifier (op-amp) symbol is shown in figure below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ It has two input terminals, the inverting ( -) input and the non inverting (+) input, and 
+one output terminal.  
+  Most op-amps operate with two dc supply voltages, one positive and the other negative, 
+as shown in figure below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Ideal Op-Amp: 
+The ideal op-amp has,  
+ Infinite Voltage Gain 
+ Infinite Bandwidth 
+ Infinite Input Impedance  
+ Zero Output Impedance  
+ Infinite Slew Rate 
+ Infinite Common Mode Rejection Ratio (CMRR)  
+  
+ Op-amp characteristics are illustrated in figure below: 
+ The input voltage, Vin, appears between the two input terminals, and the output voltage is AvVin, as 
+indicated by the internal voltage source symbol. 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+The Practical Op-Amp: 
+ Although integrated circuit (IC) op -amps approach parameter values that can be treated as ideal 
+in many cases, the ideal device can never be made. 
+ IC op-amp has practical limitations. 
+ Op-amps have both voltage and current limitations. 
+ Peak to- peak output voltage, is usually limited to slightly less than the two supply voltages. 
+  Output current is also limited by internal restrictions component such as power 
+dissipation and ratings. 
+Characteristics of a practical op-amp are  
+ Very High Voltage Gain 
+ Very High Input Impedance  
+ Very Low Output Impedance  
+ High Bandwidth 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Internal Block Diagram of an Op-Amp: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A typical op-amp is made up of three types of amplifier circuits: a differential amplifier, a voltage 
+amplifier, and a push-pull amplifier. 
+ The differential amp lifier is the input stage for the op -amp. It provides amplification of the 
+difference voltage between the two inputs. 
+ The second stage is usually a class A amplifier that provides additional gain. Some op -amps may 
+have more than one voltage amplifier stage. 
+ A push-pull class B amplifier is typically used for the output stage. 
+  The term differential comes from the amplifier’s ability to amplify the difference of two input 
+signals applied to its inputs. 
+  Only the difference in the two signals is amplified; if there is no difference, the output is zero. 
+ The differential amplifier exhibits two modes of operation based on the type of input signals. 
+
+ 
+3  
+  These modes are –Differential and Common. 
+  
+Op-amp Input Modes and Parameters:  
+Differential Mode: 
+ In the differential mode, either one signal is applied to an input with the other input grounded or 
+two opposite-polarity signals are applied to the inputs. 
+ When an op -amp is operated in the single -ended differential mode, one input is grounded and a 
+signal voltage is applied to the other input, as shown in figure below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ In the case where the signal voltage is applied to the inverting input, an inverted, amplified signal 
+voltage appears at the output. 
+ In the case where the signal is applied to the non - inverting input with the inverting input 
+grounded, a non-inverted, amplified signal voltage appears at the output. 
+  In the double-ended differential mode, two opposite-polarity (out-of-phase) signals are applied 
+to the inputs. The amplified difference between the two inputs appears on the output. 
+ Equivalently, the double -ended differential mode can be represented by a single source 
+connected between the two inputs, as shown in figure. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Common Mode: 
+ In the common mode, two signal voltages of the same phase, frequency, and amplitude are 
+applied to the two inputs, as shown in figure: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ When equal input signals are applied to both inputs, they tend to cancel, resulting in a zero 
+output voltage. 
+  This action is called common -mode rejection.  Its importance lies in the situation where an 
+unwanted signal appears commonly on both op-amp inputs. 
+
+ 
+ 
+  Common-mode rejection means that this unwanted signal will not appear on the output and 
+distort the desired signal. 
+ 
+Op-Amp Parameters:  
+Common-Mode Rejection Ratio (CMRR): 
+ Unwanted signals (noise) appearing with the same polarity on both input lines are essentially 
+cancelled by the op-amp and do not appear on the output. 
+ The measure of an amplifier’s ability to reject common -mode signals is a parameter called the 
+CMRR (common-mode rejection ratio). 
+ Ideally, an op -amp provides a very high gain for differential -mode signals and zero gain for 
+common-mode signals. 
+  Practical op-amps, however, do exhibit a very small common -mode gain (usually much less than 
+1), while providing a high open-loop differential voltage gain (usually several thousand). 
+  The higher the open -loop gain with respect to the common -mode gain, the better the 
+performance of the op-amp in terms of rejection of common-mode signals. 
+ This suggests that a good m easure of the op -amp’s performance in rejecting unwanted common -
+mode signals is the ratio of the open -loop differential voltage gain, A ol, to the common-mode gain, 
+Acm. This ratio is the common-mode rejection ratio, CMRR. 
+ 
+ 
+ 
+ The higher the CMRR, the bette r. A very high value of CMRR means that the open -loop gain, Aol, is 
+high and the common-mode gain, Acm, is low. 
+ The CMRR is often expressed in decibels (dB) as 
+ 
+  
+ The open -loop voltage gain, A ol, of an internal voltage gain of the device and  op-amp is the  
+represents the ratio of output voltage to input voltage when there are no external components. 
+ The open-loop voltage gain is set entirely by the internal design. Open-loop voltage gain can range 
+up to 200,000 (106 dB) and is not a well-controlled parameter. 
+ 
+Problems: 
+1. A certain op-amp has an open-loop differential voltage gain of 100,000 and a common-mode gain 
+of 0.2. Determine the CMRR and express it in decibels. 
+ANS:500,000 . In decibels =114dB 
+ 
+2. Determine the CMRR and express it in dB for an op -amp with an open-loop differential voltage 
+gain of 85,000 and a common-mode gain of 0.25. 
+ANS: 3,40,000 . In decibels =110.6dB 
+ 
+Maximum Output Voltage Swing (Vo(p-p)): 
+ With no input signal, the output of an op amp is ideally 0 V.  This is called the quiescent outpu t 
+voltage. 
+ When an input signal is applied, the peak-to-peak output signals have the ideal limits of ±VCC. 
+  In practice, however, this ideal can be approached but never reached. 
+ Vo(p-p) varies with the load connected to the op-amp and increases directly with load resistance. 
+  Some op-amps do not use both positive and negative supply voltages.  In this case, the op -amp 
+
+ 
+5  
+output is designed to operate between ground and a full scale output that is near (or at) the 
+positive supply voltage. 
+ Op-amps that operate on  a single supply use the  terminology VOH and VOL to specify  the 
+maximum and minimum output voltage. 
+ 
+Input Offset Voltage (VOS): 
+ The ideal op-amp produces zero volts out for zero volts in. 
+  In a practical op -amp, however, a small dc voltage,  VOUT(error), appears at the output when no 
+differential input voltage is applied. 
+  Its primary cause is a slight mismatch of the base emitter voltages of the differential amplifier 
+input stage of an op-amp. 
+ The input offset voltage, V OS,  is the differential dc  voltage required between the inputs to force 
+the output to zero volts.  
+  Typical values of input offset voltage are in the range of 2 mV or less. In the ideal case, it is 0 V. 
+ The input offset voltage drift is a parameter related VOS that specifies how much change occurs in 
+the input offset voltage for each degree change in temperature. 
+ Typical values range anywhere from about 5μV per degree Celsius to about per 50μV degree 
+Celsius. 
+ 
+Input Bias Current (IBIAS): 
+ The input bias current is the dc current required by the inputs of the amplifier to properly 
+operate the first stage. 
+  By definition, the input bias current i s the average of both input currents and is calculated as 
+follows: 
+ 
+ 
+ 
+ 
+Input Impedance: 
+ Two basic ways of specifying the input impedance of an op -amp are the differential and the 
+common mode. 
+  The differential input impedance is the total resistance betwe en the inverting and the non 
+inverting inputs: 
+ Differential impedance is measured by determining the change in bias current for a given change 
+in differential input voltage. 
+ 
+ 
+ 
+ 
+ The common -mode input impedance is the resistance between each input and gro und and is 
+measured by determining the change in bias current for a given change in common -mode input 
+voltage 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Input Offset Current (IOS): 
+ Ideally, the two input bias currents are equal, and thus their difference is zero. 
+  In a practical op-amp, however, the bias currents are not exactly equal. 
+ The input bias offset current, IOS, is the difference of the currents, expressed as an absolute value. 
+  
+ 
+ Actual magnitudes of offset current are usually at least an order of magnitude (ten times) less 
+than the bias current. 
+  In many applications, the offset current can be neglected. 
+  However, high -gain, high -input impedance amplifiers  should have difference in  as little I OS as 
+currents through  possible because the large input resistances  develops a substantial  offset 
+voltage, as shown in Figure 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The offset voltage developed by the input offset current is 
+ 
+ 
+ 
+ 
+ The error created by IOS is amplified by the gain Av of the op-amp and appears in the output as 
+ 
+ 
+ 
+ 
+ A change in offset current with temperature affects the error voltage.  
+ 
+Slew Rate: 
+ The maximum rate of change of the output voltage in response to a step input voltage is the slew 
+rate of an op-amp. 
+ The slew rate is dependent upon the high -frequency response of the amplifier stages within the 
+op-amp. 
+ Slew rate is measured with an op-amp connected as shown in Figure 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A pulse is applied to the input and the resulting ideal output voltage is indicated in figure. 
+  The width of the input pulse must be sufficient to allow the output to “slew” from its lower limit 
+to its upper limit. 
+
+ 
+7  
+ A certain time interval, Δt, is required for the output  voltage to go from its lower limit –Vmax to 
+its upper limit +Vmax once the input step is applied. 
+ The slew rate is expressed as 
+ 
+ 
+ 
+ 
+ 
+Output Impedance: 
+The output impedance is the resistance viewed from the output terminal of the op-amp. 
+ 
+Negative Feedback 
+ 
+Negative feedback is the process whereby a portion of the output voltage of an amplifier is 
+returned to the input with a phase angle that opposes (or subtracts from) the input signal. 
+ 
+ The inverting input effectively makes the feedback signal 180° out of phase with the input signal. 
+ The usefulness of an op -amp operated without negative feedback is generally limited to 
+comparator applications.  With negative feedb ack, op-amp can function as a linear amplifier.  
+Following table 
+ summarizes the general effects of negative feedback on op-amp performance. 
+ 
+ 
+ VOLTAGE GAIN INPUT Z  PUTPUT Z BANDWIDTH 
+With negative 
+feedback 
+Aol is too high for 
+linear amplifier 
+applications 
+Relatively high Relatively low Relatively narrow 
+(because the gain is 
+so high) 
+With negative 
+feedback 
+Acl is set to desired 
+value by the 
+feedback circuit 
+Can be 
+increased or 
+reduced to a 
+desired value 
+depending on 
+type of circuit 
+Can be 
+reduced to a 
+desired value 
+Significantly wider 
+ 
+ 
+An op -amp can be connected using negative feedback to stabilize the gain and increase frequency    
+response. Negative feedback takes a portion of the output and applies it  back out of phase with the 
+input, creating an effective reduction in gain. This closed loop gain is usually much less than the open -
+loop gain and independent of it. 
+ 
+ 
+
+
+ 
+ 
+Closed-Loop Voltage Gain, Acl : 
+The closed-loop voltage gain is the voltage gain of an op-amp with external feedback. The amplifier 
+configuration consists of the op-amp and an external negative feedback circuit that connects the 
+output to the inverting input. 
+ 
+Noninverting Amplifier: 
+ 
+The input signal is applied to the noninverting (+) input. The output is applied back to the inverting 
+input through the feedback circuit (closed loop) formed by the input resistor R i and the feedback 
+resistor R f. Resistors R i and R f form a voltage -divider circuit, which reduces V out and connects the 
+reduced voltage Vf to the inverting input. The feedback voltage is expressed as 
+ 
+The difference of the input voltage, Vin, and the feedback voltage, Vf, is the differential input to the op-
+amp. This differential voltage is amplified by the open-loop voltage gain of the op-amp (Aol) and 
+produces an output voltage expressed as 
+ 
+The attenuation, B, of the feedback circuit is 
+ 
+Substituting BVout for Vf in the Vout equation, 
+ 
+ 
+
+
+ 
+9  
+ 
+Problem: 
+1. Determine the closed-loop voltage gain of the amplifier in Figure 
+ 
+Solution: 
+This is a noninverting op-amp configuration. Therefore, the closed-loop voltage gain is 
+ 
+ 
+               = 1 +
+𝟏𝟎𝟎𝒌𝛀
+𝟒.𝟕𝒌𝛀  = 22.3 
+ 
+2. If Rf in  above Figure is increased to 150kΩ determine the closed-loop gain 
+Solution: 
+Acl(NI) =  32.91 
+ 
+Voltage-Follower: 
+The voltage-follower configuration is a special case of the noninverting amplifier where all of the 
+output voltage is fed back to the inverting input by a straight connection. The straight feedback 
+
+
+ 
+ 
+connection has a voltage gain of 1 (which means there is no gain). Therefore , Acl(VF)= 1 
+ 
+ 
+The most important features of the voltage-follower configuration are its very high input 
+impedance and its very low output impedance. These features make it a nearly ideal buffer 
+amplifier for interfacing high-impedance sources and low-impedance loads. 
+ 
+Inverting Amplifier: 
+ 
+The input signal is applied through a series input resistor R i to the inverting input. Also, the output is 
+fed back through Rf to the same input. The noninverting (+) input is grounded. 
+An infinite input impedance implies zero current at the inverting input. If there is zero current 
+through the input terminal, then there must be no voltage drop between the inverting and 
+noninverting input s. This means that the voltage at the inverting input is zero because the 
+noninverting (+) input is grounded. This zero voltage at the inverting input terminal is referred to as 
+virtual ground which is shown in below figure a. 
+ 
+ 
+Since there is no current at the inverting input, the current through Ri and the current through Rf are 
+equal, as shown in fig.b 
+Iin = If 
+
+
+ 
+11  
+ 
+The voltage across R i equals Vin because the resistor is connected to virtual ground at the inverting 
+input of the op-amp. Therefore, 
+ 
+Also, the voltage across Rf equals –Vout because of virtual ground, and therefore, 
+ 
+Since  If=Iin, 
+ 
+Rearranging the terms,  
+ 
+Of course, Vout/Vin is the overall gain of the inverting (I) amplifier.  
+ 
+ 
+ 
+Problem: 
+1. Given the op-amp configuration in Figure, determine the value of Rf required to produce a closed-
+loop voltage gain of -100. 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+Solution:  
+ 
+ 
+Comparator: 
+A comparator is a specialized op -amp circuit that comp ares two input voltages and pro duces an 
+output that is always at either one of two states, indicating t he greater or less than relationship 
+between the inputs.  
+Comparators provide very fast switching times, and many have additional capabilities (such as 
+fast propagation delay or internal reference voltages) to optimize the comparison function.  
+In general, comparators cannot be used as op -amps, but op -amps can be used as comparators in 
+noncritical applications.  Because an op -amp without nega tive feedba ck is essentially a 
+comparator. 
+ 
+Zero-Level Detection: 
+ 
+One application of an op -amp used as a comparator i s to determine when an input voltage 
+exceeds a certain level. 
+ 
+Figure (a) shows a zero -level detector. Here inverting input is grounded to produce a zero level 
+and that the input signal voltage is applied to the noninverting input. Because of the high ope n-
+loop voltage gain, a very small difference voltage between the two inputs drives the amplifier into 
+saturation, causing the output voltage to go to its limit. Figure (b) shows the result of a sinusoidal 
+input voltage applied to the noninverting input of the zero-level detector. When the sine wave is 
+positive, the output is at its maximum positive level. When the sine wave crosses 0, the amplifier 
+is driven to its opposite state and the output goes to its maximum negative level, as shown.  
+The zerolevel de tector can be used as a squaring circuit to produce a square wave from a sine 
+wave. 
+Nonzero-Level Detection: 
+The zero-level detector can be modified to detect positive and negative voltages by connecting a 
+fixed reference voltage source to the inverting input, as shown in Figure (a) and a more practical 
+arrangement is shown in Figure (b) using a voltage divider to set the reference voltage, VREF, as 
+
+
+ 
+13  
+follows: 
+ 
+where +V is the positive op-amp dc supply voltage. 
+ 
+ 
+As long as V in is less than V REF, the output  remains at the maximum negative level. When the input 
+voltage exceeds the refer ence voltage, the output goes to its maximum positive voltag e which is 
+shown in below waveform. 
+ 
+ 
+ 
+ 
+Summing Amplifier with Unity Gain: 
+A summing amplifier has two or more inputs, and its output voltage is proportional to the negative 
+of the algebraic sum of its input voltages. 
+Two voltages, VIN1 and VIN2, are applied to the inputs and produce currents I1 and I2, as shown. 
+
+
+ 
+ 
+ 
+Using the concept of infinite i nput impedance and vi rtual ground, the inverting input of the op-amp 
+is approximately 0 V and has no current through it . This means that the total cur rent I T, which goes 
+through Rf divides into I1 and I2 at summing point A. 
+ 
+IT = I1 + I2 
+ 
+Since VOUT=-ITRf the following steps apply: 
+ 
+If all three of the resistors are equal (R1 = R2 = Rf = R), then 
+ 
+The previous equation shows that the output voltage has the same magnitude as the sum of 
+the two input voltages but with a negative sign, indicating inversion. 
+For a unity-gain summing amplifier with n inputs, as shown, all resistors are equal in value. 
+Therefore, 
+ 
+ 
+ 
+Summing Amplifier with Gain Greater Than Unity 
+When Rf is larger than the input resistors, the amplifier has a gain of Rf /R, where R is the value of 
+each equal-value input resistor. The general expression for the output is 
+ 
+Note: Please refer textbook for problems related to summing amplifier. 
+
+
+ 
+15  
+ 
+ Integrator and differentiators: 
+An op-amp integrator simulates mathematical integration, which is basically a summing proces s 
+that determines the total area under the curve of a function.  
+An op -amp differentiator simulates mathematical differentiation, which is a process of 
+determining the instantaneous rate of change of a function. 
+The Op-Amp Integrator: 
+ 
+The feedback element is a capacitor that forms an RC circuit with the i nput resistor. Th e 
+charge Q on a capacitor is proportional to the charging current (IC) and the time (t). 
+ 
+Also, in terms of the voltage, the charge on a capacitor is 
+ 
+From these two relationships, the capacitor voltage can be expressed as 
+ 
+ 
+In the above fig. the inverting input of the op-amp is at virtual ground (0 V), so the voltage 
+across Ri equals Vin. Therefore, the input current is 
+ 
+If Vin is a constant voltage, then I in is also a constant because the inverting input always remains at 
+0 V, keeping a constant voltage across R i. Because of the very high input impedance of the op -amp, 
+there is negligible current at the inverting input. 
+
+
+ 
+ 
+    Ic=Iin 
+Since I in is constant, so is I C. The constant I C charges the capacitor linearly and produces a linear 
+voltage across C. The positive side of the capacitor is held at 0 V by the virtual ground of the op -
+amp. The voltage on the negative side of the capacitor, which is the op -amp output voltage, 
+decreases linearly from zero as the capacitor charges, This voltage, V C, is called a negative ramp 
+and is the consequence of a constant positive input. 
+ 
+Vout is the same as the voltage on the negative side of the capacitor. When a constant positive input 
+voltage in the form of a step or pulse (a pulse has a constant amplitude when high) is applied, the 
+output ramp decreases negatively until the op-amp saturates at its maximum negative level. 
+ 
+The rate at which the capacitor charges, and therefore the slope of the output  ramp, is set by the 
+ratio IC/C,. Since IC = Vin/Ri, the rate of change or slope of the integrator’s output voltage is  
+ 
+The Op-Amp Differentiator: 
+ 
+The capacitor isthe input element, and the resistor is the feedback element. A differentiator 
+produces an output that is proportional to the rate of change of the input voltage. 
+ 
+
+
+ 
+17  
+Working: 
+Apply a positive-going ramp voltage to the input. 
+In this case, IC= Iin and the voltage across the capacitor is equal to V in at all times (VC = Vin) because 
+of virtual ground on the inverting input.  
+From the basic formula, VC = (IC/C)t, the capacitor current is 
+ 
+ 
+Since the current at the inverting input is negligible, I R = IC. Both currents are constant because the 
+slope of the capacitor voltage ( VC/t) is constant. The output voltage is also constant and equal to 
+the voltage across Rf because one side of the feedback resistor is always 0 V (virtual ground) 
+ 
+The output is negative when the input is a positive -going ramp and positive when the input is a 
+negative-going ramp. During the positive slope of the input, the capacitor is charging from the 
+input source and the constant current through the feedback resistor is in the direction shown. 
+During the negative slope of the input, the current is in th e opposite direction because the 
+capacitor is discharging.

@@ -1,0 +1,43 @@
+1. Presentation & Interaction Layer (Streamlit)
+
+‘a
+
+(asl = U hi
+—
+a Sidebar Controls bcd
+
+&
+
+4 ” Dashboard
+Interactive Q&A Poster Upload / | © Vision Model Picker Client Speech Engine | | | 6. source Poster Viewer Top Navigation Bar
+& Suggestion Chips Sample Selector (moondream, llava, etc.) (Web Speech API, « Right; Extracted Steps, Time, & Status Monitor
+| * Speech Synthesis (TTS) Config via window.parent) Difficulty, Warnings
+
+4
+
+2. Core Application Engine (ollama_engine.py)
+
+Ey) e 0 A S
+
+JSON Parser Prompt Template Engine Engine Initializer & Image Preprocessor In-Memory Cache
+& Regex Sanitizer (prompts.py) Health Verifier * PIL/ Lanczos (keyed by model +
+Cleans and parses * Step Extraction Prompt (/api/tags) pe oath path + mtime)
+model output © QA Prompt Template ie a encoding
+
+J | J
+
+3. Local Al Inference Engine (Ollama Service) 4. Local Storage & Data Store
+
+oo Multimodal Vision Models Ga
+Ollama Daemon < ¢ moondream (~1.7GB)
+Ca (localhost:11434)  llava-phi3 (~2.9GB) |
+
+data/posters/
+(35+ Standardized output/temp_uploads/
+© llava (~4.7GB)
+
+Samples)
+5. Session State Management
+
+chat_history procedure ») _pending_tts current_image
+((a, a)] (Structured JSON Cache) Queue & Audio Sliders / temp_uploads

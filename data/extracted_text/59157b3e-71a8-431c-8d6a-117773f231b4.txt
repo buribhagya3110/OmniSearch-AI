@@ -1,0 +1,466 @@
+Basic Electronics- Module 1 
+1 
+Prepared By Ms Preetha D’Souza 
+ Module -I 
+ 
+ 
+Basic Concepts: 
+Introduction: 
+An electric circuit is an interconnection of electrical elements. 
+A simple electric circuit is shown below.  
+ 
+★ An electric circuit has three parts: An energy source – like a battery or mains 
+power, an energy receiver – like a lightbulb and an energy pathway – like a wire. 
+★ Such a simple circuit can exist by itself with several applications, such as a 
+flashlight, a searchlight, and so forth.  
+★ The bulb will glow only if the circuit has a closed path for the flow of electrons.  
+★ The direction of flow of conventional current is from positive to negative terminal. 
+ 
+Systems of Units: 
+All measurable quantities are communicated in a standard language that virtua lly all 
+professionals can understand, irrespective of the country in which the measurement is 
+conducted. Such an international measurement language is the International System of 
+Units (SI), adopted by the General Conference on Weights and Measures in 1960. 
+ 
+ 
+One great advantage of the SI unit is that it uses prefixes based on the power of 10 to 
+relate larger and smaller units to the basic unit. 
+
+
+Basic Electronics- Module 1 
+2 
+Prepared By Ms Preetha D’Souza 
+ 
+Charge and Current: 
+Most basic quantity in an electric circuit is the electric charge. 
+Charge is an electrical  property of the atomic particles of which matter consists, 
+measured in coulombs (C). 
+❖ In 1 C of charge, there are 1/(1.602 × 10^−19) = 6.24 × 10^18 electrons.  
+❖  1 electronic charge, e = 1.602 × 10^−19 C.  
+❖ The law of conservation of charge states that charg e can neither be created nor 
+destroyed, only transferred. Thus, the algebraic sum of the electric charges in a 
+system does not change. 
+ 
+Electricity - a form of energy that results from the flow of charged particles. 
+Electric current - the time rate of change of charge, measured in amperes (A). 
+Mathematically, given by 
+ 
+1 ampere = 1 coulomb/second 
+● Benjamin Franklin - an American scientist and inventor who introduced current 
+flow as the movement of positive charges. 
+● Andre-Marie Ampere - a French mathematician and physicist who defined the 
+electric current and developed a way to measure it in the 1820 s; thus, laid the 
+foundation of electrodynamics. 
+● Alessandro Antonio Volta - an Italian physicist, invented the electric battery, 
+which provided the first continuous flow of electricity, and the capacitor. 
+
+
+Basic Electronics- Module 1 
+3 
+Prepared By Ms Preetha D’Souza 
+Types of current: 
+Based on whether these currents can be constant or time varying.
+ 
+Direct current (dc) - a current that 
+remains constant with time; flows in 
+one direction.  
+Eg: Any electronic device with a battery 
+for a power source. Rechargeable 
+devices like laptops and cell phones 
+come with an AC adapter that converts 
+alternating current to direct current. 
+ 
+Alternating current (ac) - a current 
+that varies sinusoidally with time. 
+Eg: of alternating current (ac): current 
+you use in your house to run the air 
+conditioner , refrigerator , washing 
+machine, and other electric appliances.
+Voltage and Power: 
+Voltage (or potential difference) - the energy required to move a unit charge through 
+an element, measured in volts (V). 
+Power - the time rate of expending or absorbing energy, measured in watts (W).  
+ 
+The law of conservation of energy states that energy can neither be created nor be 
+destroyed. Although, it may be transformed from one form to another. Therefore, 
++Power absorbed = −Power supplied 
+The algebraic sum of power in a circuit, at any instant of time, must be zero: ∑ p = 0 
+ 
+Circuit Elements: 
+It is an individual electrical component like R, C, L and sources like voltage and 
+current connected between two terminals. 
+Examples: 
+ 
+ 
+ 
+
+
+Basic Electronics- Module 1 
+4 
+Prepared By Ms Preetha D’Souza 
+Independent sources 
+ 
+Dependent sources  
+2 types of elements found in electric circuits: 
+1. Passive elements  
+2. Active elements.  
+An active element is capable of generating energy while a passive element is not. 
+Examples of passive elements are resistors, capacitors, transforms and inductors.  
+Examples of active elements include generators, batteries, transistors and operational 
+amplifiers. 
+● The most important active elements are voltage or current sources that generally 
+deliver power to the circuit connected to them.  
+There are 2 kinds of sources: 
+1. Independent sources 
+2. Dependent sources.  
+An ideal independent source is an active element that provides a specified voltage 
+or current that is completely independent of other circuit elements. 
+An ideal dependent (or controlled) source is an active element in which the source 
+quantity is controlled by another voltage or current. 
+ 
+Dependent sources are usually designated by diamond-shaped symbols. Since the control 
+of the dependent source is achieved by a voltage or current of some other element in the 
+circuit, and the source can be voltage or current, there are 4 types of dependent sources, 
+namely:  
+1. A voltage-controlled voltage source (VCVS).  
+2. A current-controlled voltage source (CCVS).  
+3. A voltage-controlled current source (VCCS).  
+4. A current-controlled current source (CCCS).  
+ 
+ 
+
+
+Basic Electronics- Module 1 
+5 
+Prepared By Ms Preetha D’Souza 
+OHM’S LAW 
+Ohm’s law states that the voltage v across a resistor is directly proportional to the current 
+i flowing through the resistor. 
+v ∝ i 
+  Or   
+The resistance R of an element denotes its ability to resist the flow of electric current; it 
+is measured in ohms (Ω). 
+    
+A short circuit is a circuit element with resistance approaching zero. 
+An open circuit is a circuit element with resistance approaching infinity. 
+Conductance is the ability of an element to conduct electric current; it is measured in 
+mhos (℧) or siemens (S). 
+ 
+Solved Ex1: An electric iron draws 2 A at 120 V. Find its resistance.  
+From Ohm’s law, R = v /i =120/ 2 = 60 Ω 
+Solved Ex2: In the circuit shown in Fig., calculate the current i, the conductance G, and the 
+power p. 
+ 
+ 
+Gustav Robert Kirchhoff - a German physicist, stated two basic laws in 1847 concerning 
+the relationship between the currents and voltages in an electrical network. Kirchhoff’s 
+laws, along with Ohm’s law, form the basis of circuit theory. 
+ 
+Nodes, Branches, and Loops: 
+A branch represents Portion of circuit between 2 nodes which can deliver or absorb 
+energy. It meets /stays between junctions. 
+A node is the point of connection between two or more branches. 
+Junction: Point where three or more elements meet 
+If a short circuit (a connecting wire) connects two nodes, the two nodes constitute a 
+single node.  
+
+
+Basic Electronics- Module 1 
+6 
+Prepared By Ms Preetha D’Souza 
+ 
+Note:  Short Circuit between 2 nodes is not a branch. 
+ 
+Solved Example 1 : Find the number of branches, nodes in the given circuit.
+Circuit has five branches,  three nodes a, b, and c. 
+ 
+A loop is any closed path in a circuit. 
+A Mesh is an Elementary part of the loop/ Path that does not contain any other path. 
+ 
+Note: A mesh can stay within the loop but the loop cannot stay within the mesh. 
+A network with b branches, n nodes, and l independent loops(mesh) will satisfy the 
+fundamental theorem of network topology:  
+b = l + n − 1 
+ 
+Series: Two or more elements are in series if they exclusively share a single node and 
+consequently carry the same current. 
+ 
+The equivalent conductance of resistors connected in series is  
+ 
+ 
+
+
+Basic Electronics- Module 1 
+7 
+Prepared By Ms Preetha D’Souza 
+Parallel:  Two or more elements are in parallel if they are connected to the same two 
+nodes and consequently have the same voltage across them. 
+ 
+The equivalent conductance of resistors connected in parallel is the sum of their 
+individual conductances. 
+ 
+ 
+Solved Ex 2: Determine the number of branches, nodes, junction, meshes and loops in the 
+circuit shown in Fig. below. Identify which elements are in series and which are in parallel. 
+Also check whether the number of network elements is equal to the number of branches 
+present. 
+ 
+Ans: from the figure shown 
+➔ 5 branches, 3 nodes, 3 meshes and 6  loops 
+➔ The 1-Ω and 2-Ω resistors are in parallel. The 4-Ω resistor and 10-V source are also 
+in parallel.   
+➔ Fundamental theorem , b = l + n − 1 
+◆ b= 5, n=3 gives l=3 (no of meshes).  
+➔ No of network elements = 5= no of branches 
+Exercise: 
+Find equivalent resistance for the following circuits: 
+1. Ans: 14.4𝛺 
+
+
+Basic Electronics- Module 1 
+8 
+Prepared By Ms Preetha D’Souza 
+2. Ans: 11.2𝛺 
+3. Ans: 19𝛺 
+Solved Example: 
+Find the equivalent conductance Geq for the circuit shown: 
+ 
+Hint: First Convert into Resistance 
+ 
+ 
+Kirchhoff’s Laws: 
+Kirchhoff’s current law (KCL) states that the algebraic sum of currents entering a node 
+(or a closed boundary) is zero. 
+Mathematically, KCL implies that 
+ 
+
+
+Basic Electronics- Module 1 
+9 
+Prepared By Ms Preetha D’Souza 
+ where N is the number of branches connected to the node and in is the nth current 
+entering (or leaving) the node. For the figure shown 
+ 
+The sum of the currents entering a node is equal to the sum of the currents leaving the 
+node. 
+Currents in Parallel: 
+Ex1: Applying KCL; 
+IT +I2 =I1 +I3  
+or IT = I1 − I2 + I3 
+ 
+Exercise Qsn: Find the current Io 
+Ans: Io= 2+4-10=-4A 
+Kirchhoff’s voltage law (KVL) states that the algebraic sum of all voltages around a 
+closed path (or loop) is zero. Expressed mathematically, KVL states that 
+ 
+where M is the number of voltages in the loop (or the number of branches in the loop) 
+and Vm is the mth voltage 
+
+
+Basic Electronics- Module 1 
+10 
+Prepared By Ms Preetha D’Souza 
+−v1 + v2 + v3 − v4 + v5 = 0 
+ Rearranging terms gives           v2 + v3 + v5 = v1 + v4 
+Sum of voltage drops = Sum of voltage rises 
+ 
+Voltages in Series: 
+When voltage sources are connected in series, KVL can be applied to obtain the total 
+voltage. The combined voltage is  the algebraic sum of the voltages of the individual 
+sources. For example, 
+           Vab = V1 + V2 − V3                             
+ 
+ 
+Exercise Qsn:  
+4. In the circuit in Fig., V is: 
+Ans: 12V-10V-8V+V=0 ⇒ V= 6V 
+ 
+5. For the circuit in Fig. , find voltages v1 and v2 
+ 
+Ans:  Applying KVL around the loop gives −20 + v1 − v2 = 0   
+
+
+Basic Electronics- Module 1 
+11 
+Prepared By Ms Preetha D’Souza 
+−20 + 2i + 3i = 0  
+or 5i = 20 ⇒ i = 4 A  
+v1 = 2i, v2 = −3i 
+Hence v1 = 8 V, v2 = −12 V 
+ 
+6. Determine Vo and i in the circuit shown 
+ 
+Ans: Applying KVL around the loop gives −12 + 4i + 2 vo − 4 + 6i = 0  
+Applying Ohm’s law to the 6-Ω resistor gives vo = −6i  
+Hence ,  i = −8 A and Vo = 48 V 
+ 
+7. Find current io and voltage Vo in the circuit shown  
+ 
+Ans: io = 6 A and  Vo = 4io = 24 V  
+ 
+Current Division: 
+When a number of network elements are connected in parallel, the current divides 
+through the elements. Therefore, in a parallel circuit, the current divider rule is used for 
+the circuit analysis. And th e voltage drop across all the parallel connected impedances 
+remains the same. 
+A parallel circuit with two resistors will divide the applied current Is into two currents 
+I1and I2 through each resistor. 
+ 
+ 
+ 
+ 
+ 
+
+
+Basic Electronics- Module 1 
+12 
+Prepared By Ms Preetha D’Souza 
+Exercise1 : For the circuit shown, find the value of I1 and I2. 
+ 
+Ans: I1=4.1675A and I2= 0.8335A 
+ 
+Exercise 2 : For the circuit shown, find the value of I1 and I2. 
+Given R1= 5K𝛺 and R2=10K𝛺 and Vs=12V 
+Ans: Req= 3.33K𝛺 , IT=3.6mA, I1=2.4mA and I2= 1.2mA 
+ 
+Note: If any current source is in series with resistance then the resistance can be 
+neglected. 
+          is equivalent to  
+ 
+Exercise 3 : For the circuit shown, find the value of I2. 
+Ans: I2= 1/3A 
+Exercise 4 : For the circuit shown, find the value of Ix and I3. 
+ 
+Ans: ix=2A and I3=3.99A 
+
+
+Basic Electronics- Module 1 
+13 
+Prepared By Ms Preetha D’Souza 
+ 
+Note: Practically we can have a voltage source in  series with resistance and current 
+source in parallel with resistance 
+Source Transformation: The source transformation of a circuit is the transformation of a 
+power source from a voltage source to a current source, or a current source to a voltage 
+source. 
+ 
+The transformation is done using ohm’s law equation V=IR or I = V/R 
+Eg: A 10V voltage source with 2𝛺 series resistance can be transformed into 5A current 
+source in parallel with 2 𝛺 resistance as shown in the figure below. 
+is equivalent to  
+ 
+ 
+H.w Exercise 5 : For the circuit in Fig. determine i1 to i5. 
+ 
+Answer:  i1= 56A and i5=16A 
+ 
+Voltage Division: 
+In a circuit, when a number of elements are connected in series, input voltage divides 
+across the elements. The current flowing through the series connected elements are 
+always the same. And the amount of voltage drop across the resistor depends  on its 
+resistance value.  
+To calculate the voltage across each element, the voltage divider rule(potential divider 
+rule) is used. 
+A series circuit with two resistors will divide the applied voltage V into two voltages 
+V1 and V2 across each resistor.  
+
+
+Basic Electronics- Module 1 
+14 
+Prepared By Ms Preetha D’Souza 
+ 
+V= V1+V2 
+In general, if a voltage divider has N resistors (R1, R2, … , RN) in series with the source 
+voltage v, the nth resistor (Rn) will have a voltage drop of 
+ 
+Exercise1 : For the circuit shown, find the value of Vout1 and Vout2. 
+Ans: Vout1 = 4V and Vout2 = 8V 
+ 
+Exercise 2 : For the circuit shown, measure the voltage between the terminals AB, BC, 
+CD, AC, AD. Choose R1=4𝛺, R2=8𝛺, R3=12𝛺 and V=24V 
+ 
+Ans: VAB = 4V, VBC=8V, VCD=12V, VAC=12V and VAD = 24V 
+ 
+Mesh Analysis: 
+Mesh analysis provides another general procedure for analyzing circuits, using mesh 
+currents as the circuit variables 
+Steps to Determine Mesh Currents:  
+1. Assign mesh currents i1, i2, . . . , in to the n meshes.  
+2. Apply KVL to each of the n meshes. Use Ohm’s law to express the voltages in terms 
+of the mesh currents.  
+3. Solve the resulting n simultaneous equations to get the mesh currents. 
+ 
+
+
+Basic Electronics- Module 1 
+15 
+Prepared By Ms Preetha D’Souza 
+Sample Problems: 
+1. For the circuit in Fig. find the branch currents I1, I2, and I3 using mesh analysis. 
+ 
+ 
+ 
+Solving the 2 mesh equations, we have I1 =1 A, I2 = 1 A, I3 = 0  
+ 
+2. Find currents and voltages in the circuit 
+ 
+Ans: i1 = 3 A,  i2 = 2 A, i3 = 1 A, v1 = 24 V, v2 = 6 V, v3 = 6 V  
+ 
+Mesh Analysis with Current Sources: 
+ 
+CASE 1: When a current source exists only in one mesh: 
+ 
+
+
+Basic Electronics- Module 1 
+16 
+Prepared By Ms Preetha D’Souza 
+Here We set i2 = −5 A and write a mesh equation for the other mesh in the usual 
+way; that is,  
++10 - 4i1 - 6(i1 − i2) = 0 
+ ⇒ i1 = −2 A 
+ 
+CASE 2: When a current source exists between two meshes: 
+ 
+★ A supermesh results when two meshes have a (dependent or inde pendent) 
+current source in common. 
+★ A supermesh as the periphery of the two meshes and treat it differently.  
+★ If a circuit has two or more supermeshes that intersect, they should be combined 
+to form a larger supermesh. 
+★ The current source in the supermesh provides the constraint equation obtained 
+by applying KCL necessary to solve for the mesh currents.  
+★ Constraint equation gives the relationship between the individual mesh currents 
+and the current source. 
+★ A supermesh has no current of its own. Hence KVL can be applied for the 
+supermesh circuit. 
+Thus a supermesh requires the application of both KVL and KCL. 
+Therefore, apply KVL to supermesh shown in Fig (b) we have the equation; 
++20 - 6i1 - 10i2 - 4i2 = 0 
+Applying KCL to node 0 in Fig.(a) gives i2 = i1 + 6 
+Solving these equations we have, 
+i1 = −3.2 A, i2 = 2.8 A  
+Exercise: 
+1. Use mesh analysis to determine i1, i2, and i3 in Fig.  
+ 
+ Answer: i1 = 4.632 A, i2 = 0.631 A, i3 = 1.4736 A 
+
+
+Basic Electronics- Module 1 
+17 
+Prepared By Ms Preetha D’Souza 
+2. Find the mesh currents for the circuit shown: 
+ 
+Answer: I1=7.67A, I2=10.67A and I3=2A 
+ 
+3. Find the mesh currents. 
+ 
+Answer:The currents are 2A, 1A, 0.57A. 
+ 
+4. Find vo and io in the circuit  
+ 
+Answer: 12 V, 6 A. 
+ 
+5. For the circuit in Fig. find i1 to i4 using mesh analysis. 
+ 
+Answer: i1 = −7.5 A, i2 = −2.5 A, i3 = 3.93 A, i4 = 2.143 A  
+Refer to problems solved in class*

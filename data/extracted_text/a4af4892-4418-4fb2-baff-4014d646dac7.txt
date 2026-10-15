@@ -1,0 +1,72 @@
+User
+(Web Interface)
+
+Administrator
+(Optional)
+
+Use Case Diagram
+(Multimodal VQA Agent System)
+
+Multimodal VQA Agent System
+
+1. User Interaction (Streamlit UI)
+
+Play Audio Answer
+
+2. Core Processing
+Extract Procedure
+A from Image
+Generate Answer
+using Al Model
+~o=--= Retrieve from Cache
+(if available)
+
+3. Output & Response
+
+Display Answer
+with Steps / Explanation
+
+Convert Text to Speech
+and Play Audio
+
+«include»
+
+4. External Services & Storage
+
+Speech Synthesis
+(Text-to-Speech)
+
+Store Uploaded Images
+
+Ollama LLM Service
+(Local Al Inference)
+¢ Process image & text
+
+* Generate response
+(Moondream / Llava)
+
+Web Speech API
+
+* Convert text to speech
++ Return audio
+
+and Chat History
+
+S
+
+5. System Management (Admin)
+
+Configure Model
+Settings
+
+Manage Sample
+Posters
+
+View System Status Clear Cache /
+and Dashboard Reset Data
+
+Local Storage
+
+* Save uploaded images
+* Store chat history
+and cache

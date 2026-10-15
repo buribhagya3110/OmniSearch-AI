@@ -1,0 +1,7 @@
+# Sample code
+def greet():
+    return 'hello world'
+
+
+=== Code Structure Summary ===
+Functions: greet()

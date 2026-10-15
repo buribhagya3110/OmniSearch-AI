@@ -1,0 +1,433 @@
+Syllabus: Bipolar Junction Transistors: Transistor Construction, Transistor Operation, 
+Common Base Configuration, Transistor Amplifying Action, Common Emitter 
+Configuration, Common Collector Configuration, DC Biasing – Operating Point, Fixed – 
+Bias Configu ration, Emitter – Bias Configuration, Voltage -Divider Bias Configuration. 
+(Text 2: 3.1-3.7, 4.1-4.5) 
+Module-3 - Bipolar Junction Transistors 
+The term bipolar reflects the fact that holes and electrons participate in the injection 
+process into the oppo sitely polarized material. If only one carrier is employed (elect ron 
+or hole), it is considered a unipolar device 
+Transistor Construction: 
+ 
+The transistor is a three-layer semiconductor device consisting of either two n - and one  
+p -type layers of material or two p - and one n -type layers of material. The former is called  
+an npn and pnp transistor  respectively.   
+The emitter layer is heavily doped, with the base and collector only lightly doped. The 
+outer l ayers have widths much greater than the sandwiched p - or n -type material.  
+ 
+Transistor Operation: 
+                                 
+ 
+
+
+ 
+In both cases the base-emitter (BE) junction is forward-biased and the base-collector 
+(BC) junction is reverse-biased. This condition is called forward-reverse bias.        
+ 
+The heavily doped n -type emitter region has a very high de nsity of conduction -band 
+(free) electrons. These free electrons eas ily diffuse through the forward based BE 
+junction into the lightly doped and very thin p-type base region. A small percentage of the 
+total number of free electrons injected into the base region recombine with holes and 
+move as valenc e electrons through the base re gion and into the emitter region as hole 
+current.  When the electrons that have recombined with holes as valence electrons leave 
+the crystalline structure of the base, they become free electrons in the metallic base lead 
+and produce the external base current. Most of the free electrons th at have entered the 
+base do not recombine with holes because the base is very thin. As  the free electrons 
+move toward the reverse-biased BC junction, they are swept across into the col lector 
+region by the attraction of the positive collector supply voltage. The free electron s move 
+through the collector re gion, into the external circuit, and  then return into the emitter 
+region along  with the base current. The emitter current is slightly greater than the 
+collector current because of the small base current that splits off from the total  current 
+injected into the base region from the emitter.  
+Transistor Currents: 
+ 
+IE= IC+IB 
+
+
+The collector current, however, comprises two components —the majorit y and the 
+minority carriers. The minority-current component is called the leakage current and is  
+given the symbol I CO ( I C current with emitter terminal O pen). The collector current, 
+therefore, is determined in total by  
+IC = IC majority + IC0 minority 
+Characteristics of Transistor: 
+ Input Characteristics:  The curve describes the changes in the values of input 
+current with respect to the values of input volta ge, keeping the output voltage 
+constant. 
+ Output Characteristics:  The curve is obtained by plotting the output current 
+against output voltage, keeping the input current constant. 
+ Current Transfer Characteristics:  This characteristic curve describes the 
+variation of output current in accordance with the input current, keeping the 
+output voltage constant. 
+Configuration of Transistor: 
+The three types of transistor circuit configurations are: 
+ Common Emitter Transistor 
+ Common Base Transistor 
+ Common Collector Transistor(emitter follower). 
+ 
+Common Base Configuration: 
+The common-base terminology is derived from the fact that the base is common to both 
+the input and output sides of the c onfiguration. In addition, the base is usually the 
+terminal closest to, or at, ground potential.  
+      
+
+
+In the Common base circuit for NPN and PNP the input is given between emitter and base 
+terminals and output is taken from collector and base terminals. The input voltage is 
+denoted as VBE and the output voltage is denoted as V CE. In all the configuration the base 
+emitter junction is always forward biased and the collector base junction is reverse 
+biased. 
+In the common base configuration of NPN circuit emitter is N type base is of P type and 
+collector is of N type. The emitter base terminals are forward biased so the majority 
+charge carriers in the emitter that is the electrons gets repelled by the negative applied 
+voltage and in the same way the majority charge carriers in the base that is the holes gets 
+repelled by the positive applied voltage.  
+When free electrons from emitter move to the base the free electrons and the free holes 
+combine with each other but since the base is very thin only some free electrons gets 
+combined with the holes and the majority of the electrons are attracted towards the 
+collector because of the positive terminal voltage connected to the collector. Thus the 
+current flow through the output terminal. 
+Thus the emitter current is the sum of the base current and the collector current. 
+     IE = IB+IC 
+In common base configuration, the input impedance is low and the output impedance is 
+high and the overall power gain is low when compared with other configuration 
+Input or driving point characteristics: 
+ 
+ 
+Input characteristics are the relationship between the input c urrent and input voltage 
+with constant output voltage. In common base configuration input current is emitter 
+current IE and the input voltage is base emitter voltage VBE. The curve is plotted between 
+IE and VBE keeping VCB as constant. The VBE is increased keeping VCB constant, initially at 
+zero and the input current I E is noted, similarly the V CB value is increased and kept 
+constant and VBE is increased and the input current IE is noted. 
+
+
+Input side is forward biased so the input resistance is small so for a small increase in VBE 
+there is rapid increase in the emitter current IE. As the output voltage VCB is increased the 
+width of the depletion layer between emitter base decreases and the cut in voltage is 
+reduced so the curve drifts to the left side. 
+Output or collector characteristics: 
+ 
+Output characteristics are the relationship between output current IC and output voltage 
+VCB keeping input current IE constant. When the input current IE is zero it is in cut off 
+region. In saturation region both emitter base junction and collector base junction are 
+forward biased.  
+In active region IE is gradually increased and kept constant and output voltage VCB is 
+increased further and the output current IC almost remains constant. So in active region 
+curve is almost flat. Output voltage causes only a very little change in output current. 
+In the active region the base –emitter junction is forward-biased, whereas the collector– 
+base junction is reverse-biased. 
+                                                                     IC ≈ IE 
+In the cutoff region the base–emitter and collector–base junctions of a transistor are both 
+reverse-biased. 
+In the saturation region the base –emitter and collector –base junctions are forward -
+biased. 
+Alpha (α): 
+DC Mode In the dc mode the levels of IC and IE due to the majority carriers are related by 
+a quantity called alpha and defined by the following equation: 
+
+
+                                                                 
+Since alpha is defined solely for the majority carriers, above equation can be written as 
+ 
+AC Mode For ac situations where the point of operation moves on the characteristic curve, 
+an ac alpha is defined by 
+ 
+Common Emitter Configuration: 
+In common emitter configuration, base is the input terminal, collector is the output 
+terminal and emitter is the common terminal for both input and output. That means the 
+base terminal and common emitter terminal are known as input terminals whereas 
+collector terminal and common emitter terminal are known as output terminals. 
+ 
+In common emitter c onfiguration, the emitter terminal is grounded so the common 
+emitter configuration is also known as grounded emitter configuration. Sometimes 
+common emitter configuration is also referred to as CE configuration, common emitter 
+amplifier, or CE amplifier. T he common emitter (CE) configuration is the most widely 
+used transistor configuration. 
+
+
+The common emitter (CE) amplifiers are used when large current gain is needed. 
+The input signal is applied between the base and emitter terminals while the output 
+signal is taken between the collector and emitter terminals. Thus, the emitter terminal of 
+a transistor is common for both input and output and hence it is named a s common 
+emitter configuration. 
+The supply voltage between base and emitter is denoted by V BE while the supply voltage 
+between collector and emitter is denoted by VCE. 
+In common emitter (CE) configuration, input current or base current is denoted by IB and 
+output current or collector current is denoted by IC. 
+The common emitter amplifier has medium inpu t and output impedance levels. So the 
+current gain and voltage gain of the common emitter amplifier is medium. However, the 
+power gain is high. 
+Input characteristics: 
+ 
+The input characteristics are a plot of the input current (IB) versus the input voltage (VBE) 
+for a range of values of output voltage (V CE). To determine the input characteristics, the 
+output voltage V CE is kept constant at zero volts and the input voltage V BE is increased 
+from zero volts to different voltage levels. For each voltage level o f input voltage (V BE), 
+the corresponding input current (IB) is recorded. 
+A curve is then drawn between input current I B and input voltage VBE at constant output 
+voltage VCE (0 volts). 
+Next, the output voltage (V CE) is increased from zero volts to certain v oltage level (10 
+volts) and the output voltage (V CE) is kept constant at 10 volts. While increasing the 
+output voltage (VCE), the input voltage (V BE) is kept constant at zero volts. After we kept 
+the output voltage (VCE) constant at 10 volts, the input voltage VBE is increased from zero 
+volts to different voltage levels. For each voltage level of input voltage (V BE), the 
+corresponding input current (IB) is recorded. 
+
+
+A curve is then drawn between input current I B and input voltage VBE at constant output 
+voltage VCE (10 volts). This process is repeated for higher fixed values of output voltage 
+(VCE). 
+When output voltage (VCE) is at zero volts and emitter-base junction is forward biased by 
+input voltage (VBE), the emitter-base junction acts like a normal p-n junction diode. So the 
+input characteristics of the CE configuration is same as the characteristics of a normal pn 
+junction diode. 
+The cut in voltage of a silicon transistor is 0.7 volts and germanium transistor is 0.3 volts. 
+In our case, it is a silicon tra nsistor. So from the above graph, we can see that after 0.7 
+volts, a small increase in input voltage (VBE) will rapidly increases the input current (IB). 
+In common emitter (CE) configuration, the input current (I B) is very small as compared 
+to the input cu rrent (I E) in common base (CB) configuration. The input current in CE 
+configuration is measured in microamperes (μA) whereas the input current in CB 
+configuration is measured in milliamperes (mA). From the above characteristics, we can 
+see that for higher fixed val ues of output voltage V CE, the curve shifts to the right side. 
+This is because for higher fixed values of output voltage, the cut in voltage is increased 
+above 0.7 volts. Therefore, to overcome this cut in voltage, more input voltage V BE is 
+needed than previous case. 
+Output characteristics: 
+ 
+For the common-emitter configuration the output characteristics are a plot of the output  
+
+
+current ( IC) versus output voltage (V CE) for a range of values of input current ( IB). To 
+determine the output characteristics, the input current or base current IB is kept constant 
+at 0 μA and the output voltage VCE is increased from zero volts to different voltage levels. 
+For each level of output voltage, the corresponding output current (IC) is recorded. 
+A curve is then drawn between output current IC and output voltage VCE at constant input 
+current IB (0 μA). 
+When the base current or input current I B = 0 μA, the transistor operates in the cut -off 
+region. In this region, both junctions are reverse biased. 
+Next, the input current (IB) is increased from 0 μA to 20 μA by adjusting the input voltage 
+(VBE). The input current (IB) is kept constant at 20 μA. 
+While increasing the input current (IB), the output voltage (VCE) is kept constant at 0 volts. 
+After we kept the input current (I B) constant at 20 μA, the output voltage (V CE) is 
+increased from zero volts to different voltage levels. For each voltage level of output 
+voltage (VCE), the corresponding output current (IC) is recorded. 
+A curve is then drawn between output current IC and output voltage VCE at constant input 
+current IB (20 μA). This region is known as the active region of a transistor. In this region, 
+emitter-base junction is forward biased and the collector-base junction is reverse biased. 
+This steps are repeated for higher fixed values of input current IB (I.e. 40 μA, 60 μA, 80 μA 
+and so on). 
+When output voltage V CE is reduced to a small value (0.2 V), the collector -base junction 
+becomes forward biased. This is because the output voltage V CE has less effect on 
+collector-base junction than input voltage VBE. 
+As we know that the emitter -base junction is already forward biased. Therefore, when 
+both the junctions are forward biased, the transistor operates in the saturation region. In 
+this region, a small increase in output voltage VCE will rapidly increases the output current 
+IC. 
+ 
+Beta (β) 
+DC Mode In the dc mode the levels of IC and IB are related by a quantity called beta and defined by 
+the following equation: 
+ 
+AC Mode For ac situations an ac beta is defined as follows: 
+
+
+ 
+Common Collector Configuration: 
+ 
+The common-collector configuration is used primarily for impedance-matching purposes 
+since it has a high input impedance and low output impedance, opposite to tha t of the 
+common-base and common emitter configurations. 
+In this configuration, the base terminal of the transistor serves as the input, the emitter 
+terminal is the output and the collector terminal is common for both input and output. 
+Hence, it is named as common collector configuration. The input is applied between the 
+base and collector while the output is taken from the emitter and collector. 
+Sometimes common collector configuration is also referred to as emitter follower, voltage 
+follower, common collector amplifier, CC amplifier, or CC configuration. This 
+configuration is mostly used as a voltage buffer. 
+The input supply voltage between base and collector is denoted by V BC while the output 
+voltage between emitter and collector is denoted by VEC. 
+In this configuration, input current or base current is denoted by IB and output current or 
+emitter current is denoted by I E. The co mmon collector amplifier has high input 
+impedance and low output impedance. It has low voltage gain and high current gain. 
+The power gain of the common collector amplifier is medium. 
+The output characteristics of the common-collector configuration are the same as for the 
+common-emitter configuration. For the common -collector configuration the output 
+characteristics are a plot of I E versus VCE for a range of values of I B . The input current, 
+
+
+therefore, is the same for both the common  emitter and common -collector 
+characteristics. 
+DC Biasing-  
+Basic relationships for a transistor: 
+ 
+Operating point 
+For transistor amplifiers the resulting dc current and voltage establish an operating point 
+on the characteristics that define the region that will be employed for amplification of the 
+applied signal. Because the operating point is a fixed point on the characteristics, it is also 
+called the quiescent point (abbreviated Q -point). By definition, quiescent means quiet, 
+still, inactive. 
+ 
+For the BJT to be biased in its linear or active operating region the following must be true:  
+1. The base–emitter junction must be forward-biased (p-region voltage more positive),  
+with a resulting forward-bias voltage of about 0.6 V to 0.7 V. 
+2. The base–collector junction must be reverse-biased (n-region more positive), with  
+the reverse-bias voltage being any value within the maximum limits of the device. 
+Operation in the cutoff, saturation, and linear regions of  the BJT characteristic are 
+provided as follows:  
+
+
+ 1. Linear-region operation: 
+ Base–emitter junction forward-biased  
+ Base–collector junction reverse-biased 
+2. Cutoff-region operation: 
+ Base–emitter junction reverse-biased  
+ Base–collector junction reverse-biased  
+ 3. Saturation-region operation: 
+ Base–emitter junction forward-biased  
+ Base–collector junction forward-biased 
+ 
+ 
+Fixed Bias configuration 
+ 
+ 
+The circuit  shown is called as a “fixed base bias circuit”, because the transistors base 
+current, I B remains constant for given values of Vcc, an d therefore the transistors 
+operating point must also remain fixed. This two resistor biasing network is used to 
+establish the initial operating region of the transistor using a fixed current bias. 
+Forward Bias of Base–Emitter 
+ 
+Writing Kirchhoff’s voltage equation in the clockwise direction for the loop, we obtain  
+
+
+ +VCC - IBRB - VBE = 0 -----------1 
+Solving the equation for the current I B results in the following: 
+ 
+Collector–Emitter Loop 
+ 
+The magnitude of the collector current is related directly to IB through 
+ 
+Applying Kirchhoff’s voltage law in the clockwise direction around the indicated closed  
+Loop 
+VCE + ICRC - VCC = 0 
+ 
+Problem: 
+1. Determine the following for the fixed-bias configuration of following fig. 
+a. IBQ and ICQ.  
+b. VCEQ.  
+c. VB and VC   
+d. VBC 
+ 
+
+
+ 
+Solution: 
+      a.  
+            
+  b.  
+                       
+c.  
+                                   
+d.  
+                       
+Emitter Bias configuration 
+ 
+ 
+ The circuit contains an emitter res istor to improve the stability level over that of t he 
+fixed-bias configuration . The more stable a configuration, the less its response will 
+change due to undesirable changes in temperature and parameter variations. 
+
+
+ 
+Fig. DC equivalent 
+ 
+Base–Emitter Loop 
+ 
+ 
+Fig. Base–emitter loop.  
+ 
+Writing Kirchhoff’s voltage law around the indicated loop in the clockwise direction  
+results in the following equation: 
+ 
+ 
+ 
+
+
+Collector–Emitter Loop 
+ 
+Fig. Collector–emitter loop. 
+Writing Kirchhoff’s voltage law for the indicated loop in the clockwise direction results 
+in 
+ 
+ 
+ 
+ 
+
+
+Problem: 
+1. For the emitter -bias configuration of  following fig. determine: 
+a. IB 
+b.  IC 
+c. VCE  
+d. VC   
+e. VE 
+f. VB 
+g. VBC 
+ 
+Solution: 
+a.     
+ 
+b.  
+ 
+c.  
+ 
+ 
+ 
+ 
+
+
+ 
+Voltage-Divider Bias Configuration 
+ 
+Fig. Defining the Q-point for the 
+voltage-divider bias configuration 
+ 
+Fig. Voltage-divider bias configuration                       
+Exact Analysis: 
+                                                                
+Fig. DC components of the voltage divider                                     Fig. Redrawing the input side of the network 
+configuration            
+ 
+The Thevenin equivalent network for the network to the left of the base terminal can be 
+found as follows: 
+RTh The voltage source is replaced by a short-circuit equivalent 
+                                                                Fig. Determining RTh                                                                         
+
+
+ETh The voltage source VCC is returned to the network and the open-circuit Thevenin voltage 
+of  following Fig. determined as follows: 
+ 
+Fig. Determining ETh 
+Applying the voltage-divider rule gives 
+                                          
+The Thevenin network is then redr awn as shown in Fig. , and I BQ can be determined  by first 
+applying Kirchhoff’s voltage law in the clockwise direction for the loop indicated: 
+ 
+Fig. Inserting the Thevenin equivalent  circuit 
+                           
+Once IB is known, the remaining quantities of the network can be found in the same manner as 
+developed for the emitter-bias configuration. That is, 
+                                 
+Note: The remaining equations for VE, VC, and VB are also the same as obtained for the emitter-
+bias configuration. 
+Problem: 
+1. Determine the dc bias voltage VCE and the current IC for the voltagedivider configuration of 
+the following Fig. 
+
+
+ 
+Solution: 
+                            
+                            
+Approximate Analysis: 
+                            
+Fig. Partial-bias circuit for calculating the approximate base voltage VB
