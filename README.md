@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ OmniSearch AI: Multi-Format Document Search Engine
 
 An AI-powered document ingestion, indexing, and hybrid search system designed for multi-format documents.
@@ -339,3 +340,6 @@ python3 app.py "quantum computing"
 ```bash
 python3 -m unittest discover -s tests -p "test_*.py" -v
 ```
+=======
+# OmniSearch-AI
+>>>>>>> 34dad560e01e65e66fbd2889c79c8cca7b37a9c6
