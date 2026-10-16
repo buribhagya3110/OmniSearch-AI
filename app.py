@@ -261,8 +261,8 @@ def run_scan(folder_path: str):
 
 
 if __name__ == "__main__":
+
     if len(sys.argv) > 1 and sys.argv[1] == "--scan":
-        # Directory scan mode.
         if len(sys.argv) < 3:
             print("Usage: python app.py --scan /path/to/folder")
             sys.exit(1)
@@ -270,15 +270,13 @@ if __name__ == "__main__":
         run_scan(sys.argv[2])
 
     elif len(sys.argv) > 1:
-        # CLI search mode.
         run_cli()
 
     elif HAS_STREAMLIT:
-        # Running app.py directly without arguments prints instructions.
-        print("To start the web app, run:")
-        print("    python -m streamlit run app.py")
+        run_streamlit_app()
 
     else:
         print("Streamlit is not installed.")
         print("Install dependencies using:")
+        print("python3 -m pip install -r requirements.txt")
         print("    python3 -m pip install -r requirements.txt")
